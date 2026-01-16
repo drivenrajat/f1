@@ -1659,6 +1659,10 @@ def get_live_weather() -> str:
 # MAIN ENTRY POINT
 # ==============================================================================
 
-if __name__ == "__main__":
+def main():
+    """Entry point for the F1 MCP Server."""
     print("🏎️  F1 Mega Server Running...")
     mcp.run()
+
+if __name__ == "__main__":
+    main()

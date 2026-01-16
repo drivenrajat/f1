@@ -65,8 +65,8 @@ This server exposes 36+ tools for accessing F1 data:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/f1-mcp-server.git
-cd f1-mcp-server
+git clone https://github.com/drivenrajat/f1.git
+cd f1
 ```
 
 2. Create a virtual environment:
