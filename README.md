@@ -89,7 +89,7 @@ Add this server to your Claude Desktop MCP configuration (`~/Library/Application
   "mcpServers": {
     "f1": {
       "command": "python",
-      "args": ["/path/to/f1-mcp/f1_server.py"]
+      "args": ["/path/to/f1/f1_server.py"]
     }
   }
 }
@@ -102,7 +102,7 @@ Or if using uv:
   "mcpServers": {
     "f1": {
       "command": "uv",
-      "args": ["run", "--directory", "/path/to/f1-mcp", "python", "f1_server.py"]
+      "args": ["run", "--directory", "/path/to/f1", "python", "f1_server.py"]
     }
   }
 }
