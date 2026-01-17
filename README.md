@@ -1,5 +1,7 @@
 # F1 MCP Server
 
+<!-- mcp-name: io.github.drivenrajat/f1 -->
+
 A Model Context Protocol (MCP) server that provides comprehensive Formula 1 data and analytics for Claude Desktop integration.
 
 ## Features

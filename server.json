@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.drivenrajat/f1",
+  "title": "F1 Data Server",
+  "description": "Access Formula 1 race data, telemetry, lap times, standings, and analytics powered by FastF1",
+  "repository": {
+    "url": "https://github.com/drivenrajat/f1",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "f1-mcp-server",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
