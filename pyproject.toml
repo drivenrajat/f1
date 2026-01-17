@@ -1,5 +1,5 @@
 [project]
-name = "f1-mcp-server"
+name = "f1-mcp"
 version = "0.1.0"
 description = "MCP server for Formula 1 data - provides F1 telemetry, race results, standings, and analytics for Claude Desktop"
 readme = "README.md"
@@ -39,7 +39,7 @@ dev = [
 ]
 
 [project.scripts]
-f1-mcp-server = "f1_server:main"
+f1-mcp = "f1_server:main"
 
 [build-system]
 requires = ["hatchling"]
