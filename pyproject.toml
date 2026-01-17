@@ -1,6 +1,6 @@
 [project]
 name = "f1-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server for Formula 1 data - provides F1 telemetry, race results, standings, and analytics for Claude Desktop"
 readme = "README.md"
 license = {text = "MIT"}
@@ -12,6 +12,10 @@ keywords = ["f1", "formula1", "mcp", "claude", "telemetry", "racing"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "Intended Audience :: Information Technology",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
